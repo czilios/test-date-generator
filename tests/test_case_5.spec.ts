@@ -43,15 +43,14 @@ function getPattern(format: string): RegExp | null {
 
 test('should load page and generate custom date format', async ({ page }) => {
   await page.goto('https://codebeautify.org/generate-random-date');
+  await page.locator('iframe[title="SP Consent Message"]').contentFrame().getByRole('button', { name: 'Accept' }).click()
 
   for (const format of formats) {
     await test.step(`Validate format: ${format}`, async () => {
       await page.locator('#format').selectOption(format);
       await page.getByRole('button', { name: 'Generate Random Date' }).click();
-
-      const generatedDates = await page
-        .getByRole('textbox', { name: 'Generated Random Integer' })
-        .inputValue();
+      
+      const generatedDates = await page.getByRole('textbox', { name: 'Generated Random Integer' }).inputValue();
 
       const generatedDatesArray = generatedDates
         .split('\n')

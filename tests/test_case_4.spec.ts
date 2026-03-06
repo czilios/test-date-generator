@@ -29,6 +29,7 @@ function findDuplicates(values: string[]): string[] {
 }
 test('test', async ({ page }) => {
   await page.goto('https://codebeautify.org/generate-random-date');
+  await page.locator('iframe[title="SP Consent Message"]').contentFrame().getByRole('button', { name: 'Accept' }).click()
   await page.locator('#count').fill('500');
   await page.getByRole('button', { name: 'Generate Random Date' }).click();
 
@@ -43,7 +44,7 @@ test('test', async ({ page }) => {
         console.log(duplicates.join('\n'));
     } else 
         {console.log('No duplicates found in generatedDatesArray.');
-            
+
         } 
     // check if generated date set is equal to 500
     expect(generatedDatesArray.length).toBe(500);
