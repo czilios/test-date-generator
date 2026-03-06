@@ -2,18 +2,16 @@
 // This test is basic and can be expanded with more assertions to verify the generated date format and content.
 // e.g. check if generated dates is set to 500 check if the generated dates are unique and if the generated dates are in the correct format default is set to MM-DD-YYYY.
 import { test, expect } from '@playwright/test';
+import {
+  clickGenerateRandomDate,
+  isIsoDateInRange,
+  navigateToDateGenerator,
+  readGeneratedDates,
+  toIsoDateFromMmDdYyyy,
+} from './helpers/dateGenerator';
+test.setTimeout(30000); // Set timeout to 30 seconds for all tests in this file
 const startDate = '2020-01-01';
 const endDate = '2099-12-31';
-// Helper function to check if a date is within a specified range
-function isDateInRange(dateStr: string, startIso: string, endIso: string): boolean {
-  const [month, day, year] = dateStr.split('-');
-  if (!month || !day || !year) {
-    return false;
-  }
-
-  const isoDate = `${year}-${month}-${day}`;
-  return isoDate >= startIso && isoDate <= endIso;
-}
 function findDuplicates(values: string[]): string[] {
   const counts = new Map<string, number>();
 
@@ -28,38 +26,26 @@ function findDuplicates(values: string[]): string[] {
     .map(([value, count]) => `${value} (x${count})`);
 }
 test('test check duplicated dates for set 500 generated dates', async ({ page }) => {
-  await page.goto('https://codebeautify.org/generate-random-date');
-  await page.locator('iframe[title="SP Consent Message"]').contentFrame().getByRole('button', { name: 'Accept' }).click()
+  await navigateToDateGenerator(page);
   await page.locator('#count').fill('500');
-  await page.getByRole('button', { name: 'Generate Random Date' }).click();
+  await clickGenerateRandomDate(page);
 
-  const generatedDates = await page.getByRole('textbox', { name: 'Generated Random Integer' }).inputValue();
-  const generatedDatesArray = generatedDates
-    .split('\n')
-    .map((d) => d.trim())
-    .filter(Boolean);
-    const duplicates = findDuplicates(generatedDatesArray);
-    if (duplicates.length > 0) {
-        console.log('Duplicate generated dates found:');
-        console.log(duplicates.join('\n'));
-    } else 
-        {console.log('No duplicates found in generatedDatesArray.');
+  const generatedDatesArray = await readGeneratedDates(page);
+  const duplicates = findDuplicates(generatedDatesArray);
 
-        } 
-    // check if generated date set is equal to 500
-    expect(generatedDatesArray.length).toBe(500);
-    // Check default format MM-DD-YYYY
-   generatedDatesArray.forEach(date => {
-      expect(date).toMatch(/^\d{2}-\d{2}-\d{4}$/);  
-      try {
-        expect(isDateInRange(date, startDate, endDate)).toBe(true);
-      } catch (error) {
-        console.error(`Date ${date} is out of range:`, error);
-      }
-     
-    });
+  // check if generated date set is equal to 500
+  expect(generatedDatesArray.length).toBe(500);
 
-    console.log(generatedDatesArray);
-    console.log('All generated dates are in the correct format and within the specified range:', startDate,'and', endDate, generatedDatesArray.every(date => isDateInRange(date, startDate, endDate)));
-   
+  // Check default format MM-DD-YYYY
+  for (const date of generatedDatesArray) {
+    expect(date).toMatch(/^\d{2}-\d{2}-\d{4}$/);
+    const isoDate = toIsoDateFromMmDdYyyy(date);
+    expect(isoDate).not.toBeNull();
+    expect(isIsoDateInRange(isoDate!, startDate, endDate)).toBe(true);
+  }
+
+  // Keep duplicate information observable without failing the test by default.
+  if (duplicates.length > 0) {
+    console.warn(`Duplicates detected (${duplicates.length}):\n${duplicates.join('\n')}`);
+  }
 });

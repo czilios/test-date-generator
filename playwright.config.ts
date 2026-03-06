@@ -8,12 +8,14 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
   timeout: 1 * 60 * 1000,
-  reporter: [['html',{ outputFolder: process.env.PW_HTML_REPORT ?? 'tests/reports/html-report', open: 'never' }], ['line']],
+  // Use Playwright default report folder so `npx playwright show-report` works out of the box.
+  reporter: [['html', { outputFolder: 'playwright-report', open: 'never' }]],
   use: {
      baseURL: 'https://codebeautify.org/generate-random-date',
-     headless: false,
+     headless: process.env.HEADED === '1' ? false : true,
      launchOptions: {
-      slowMo: 0, // Slow down actions by 100ms to better observe test execution
+      // Enable visual debugging only when explicitly requested.
+      slowMo: process.env.HEADED === '1' ? 75 : 0,
     },
      screenshot: 'only-on-failure',
      trace: 'retain-on-failure',

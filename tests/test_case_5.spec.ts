@@ -3,7 +3,13 @@
 // and verify that they conform to the expected patterns and fall within the defined date range if applicable.
 
 import { test, expect } from '@playwright/test';
+import {
+  clickGenerateRandomDate,
+  navigateToDateGenerator,
+  readGeneratedDates,
+} from './helpers/dateGenerator';
 
+test.setTimeout(60000); // Format loop can take longer due dynamic consent/ad overlays.
 const formats = [
   'MM-DD-YYYY',
   'YYYY-MM-DD hh:mm:ss',
@@ -15,6 +21,9 @@ const formats = [
   'Month Date Year hh:mm:ss',
   'Custom date format',
 ];
+
+const yearMonthDatePattern = /^\d{4} [A-Za-z]+ \d{1,2} \d{2}:\d{2}:\d{2}$/;
+const yearDateMonthPattern = /^\d{4} \d{1,2} [A-Za-z]+ \d{2}:\d{2}:\d{2}$/;
 
 function getPattern(format: string): RegExp | null {
   switch (format) {
@@ -31,7 +40,7 @@ function getPattern(format: string): RegExp | null {
     case 'Year Month Date hh:mm:ss':
       return /^\d{4} [A-Za-z]+ \d{1,2} \d{2}:\d{2}:\d{2}$/;
     case 'Year Date Month hh:mm:ss':
-      return /^\d{4} \d{1,2} [A-Za-z]+ \d{2}:\d{2}:\d{2}$/;
+      return yearDateMonthPattern;
     case 'Month Date Year hh:mm:ss':
       return /^[A-Za-z]+ \d{1,2} \d{4} \d{2}:\d{2}:\d{2}$/;
     case 'Custom date format':
@@ -42,38 +51,44 @@ function getPattern(format: string): RegExp | null {
 }
 
 test('should load page and generate custom date format', async ({ page }) => {
-  await page.goto('https://codebeautify.org/generate-random-date');
-  await page.locator('iframe[title="SP Consent Message"]').contentFrame().getByRole('button', { name: 'Accept' }).click()
+  await navigateToDateGenerator(page);
 
   for (const format of formats) {
     await test.step(`Validate format: ${format}`, async () => {
       await page.locator('#format').selectOption(format);
-      await page.getByRole('button', { name: 'Generate Random Date' }).click();
-      
-      const generatedDates = await page.getByRole('textbox', { name: 'Generated Random Integer' }).inputValue();
+      await clickGenerateRandomDate(page);
 
-      const generatedDatesArray = generatedDates
-        .split('\n')
-        .map((d) => d.trim())
-        .filter(Boolean);
+      const generatedDatesArray = await readGeneratedDates(page);
 
       expect(generatedDatesArray.length, `No dates generated for format "${format}"`).toBeGreaterThan(0);
 
       const pattern = getPattern(format);
 
       if (!pattern) {
-        console.log(`Skipping validation for custom format: ${format}`);
+        console.log(`Skipping strict regex validation for format: ${format}`);
         return;
       }
 
       const invalidDates = generatedDatesArray.filter((date) => !pattern.test(date));
 
+      if (format === 'Year Date Month hh:mm:ss') {
+        const stillYearMonthDate = generatedDatesArray.filter((date) => yearMonthDatePattern.test(date));
+        if (stillYearMonthDate.length > 0) {
+          console.warn(
+            `Warning: selected format "${format}", but output still appears as "Year Month Date" for ${stillYearMonthDate.length} values.`
+          );
+        }
+
+        expect(
+          stillYearMonthDate,
+          `Selected format "${format}" appears not to change output. Values still match "Year Month Date" format:\n${stillYearMonthDate.join('\n')}`
+        ).toEqual([]);
+      }
+
       expect(
         invalidDates,
         `Format "${format}" validation failed. Invalid dates:\n${invalidDates.join('\n')}`
       ).toEqual([]);
-
-      console.log(`✓ All dates valid for format: ${format}`);
     });
   }
 });
