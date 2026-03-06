@@ -3,10 +3,12 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',
   fullyParallel: true,
+  globalTimeout: 60 * 60 * 1000,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
-  reporter: [['html',{outputFolder:'tests/reports/html-report'}], ['line']],
+  timeout: 1 * 60 * 1000,
+  reporter: [['html',{ outputFolder: process.env.PW_HTML_REPORT ?? 'tests/reports/html-report', open: 'never' }], ['line']],
   use: {
      baseURL: 'https://codebeautify.org/generate-random-date',
      headless: false,
