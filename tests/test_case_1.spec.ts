@@ -17,6 +17,7 @@ function isDateInRange(dateStr: string, startIso: string, endIso: string): boole
 
 test('test', async ({ page }) => {
   await page.goto('https://codebeautify.org/generate-random-date');
+  await page.locator('iframe[title="SP Consent Message"]').contentFrame().getByRole('button', { name: 'Accept' }).click()
   //await page.locator('#count').click();
   await page.locator('#count').fill('20');
   await page.getByRole('button', { name: 'Generate Random Date' }).click();

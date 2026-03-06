@@ -18,6 +18,7 @@ function isDateInRange(dateStr: string, minIso: string, maxIso: string): boolean
 
 test('test endDate lower than startDate generates valid dates', async ({ page }) => {
   await page.goto('https://codebeautify.org/generate-random-date');
+  await page.locator('iframe[title="SP Consent Message"]').contentFrame().getByRole('button', { name: 'Accept' }).click()
   await page.locator('#count').fill(String(expectedCount));
   await page.locator('#start').fill(startDate);
   await page.locator('#end').fill(endDate);

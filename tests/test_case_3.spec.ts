@@ -35,6 +35,7 @@ function isTimeInRange(dateStr: string, startIso: string, endIso: string): boole
 
 test('should load page and generate custom time', async ({ page }) => {
   await page.goto('https://codebeautify.org/generate-random-date');
+  await page.locator('iframe[title="SP Consent Message"]').contentFrame().getByRole('button', { name: 'Accept' }).click()
 //Set custom start and end date time
   console.log('Start DateTime:', startDateTime);
   console.log('End DateTime:', endDateTime);
