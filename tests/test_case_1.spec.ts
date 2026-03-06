@@ -15,7 +15,7 @@ function isDateInRange(dateStr: string, startIso: string, endIso: string): boole
   return isoDate >= startIso && isoDate <= endIso;
 }
 
-test('test', async ({ page }) => {
+test('test count if number of generated dates is correct', async ({ page }) => {
   await page.goto('https://codebeautify.org/generate-random-date');
   await page.locator('iframe[title="SP Consent Message"]').contentFrame().getByRole('button', { name: 'Accept' }).click()
   //await page.locator('#count').click();

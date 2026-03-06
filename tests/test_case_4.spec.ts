@@ -27,7 +27,7 @@ function findDuplicates(values: string[]): string[] {
     .filter(([, count]) => count > 1)
     .map(([value, count]) => `${value} (x${count})`);
 }
-test('test', async ({ page }) => {
+test('test check duplicated dates for set 500 generated dates', async ({ page }) => {
   await page.goto('https://codebeautify.org/generate-random-date');
   await page.locator('iframe[title="SP Consent Message"]').contentFrame().getByRole('button', { name: 'Accept' }).click()
   await page.locator('#count').fill('500');
