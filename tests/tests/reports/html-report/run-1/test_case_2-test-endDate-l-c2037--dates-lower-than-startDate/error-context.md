@@ -1,0 +1,1446 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation "main navigation" [ref=e5]:
+    - generic [ref=e6]:
+      - link "Logo" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Logo" [ref=e9]
+      - generic [ref=e11]:
+        - link "JSON Formatter" [ref=e12] [cursor=pointer]:
+          - /url: https://jsonformatter.org
+        - link "XML Formatter" [ref=e13] [cursor=pointer]:
+          - /url: https://jsonformatter.org/xml-formatter
+        - link "Pixelate Image" [ref=e14] [cursor=pointer]:
+          - /url: https://pixelateimage.io/
+        - link "JSON Beautifier" [ref=e15] [cursor=pointer]:
+          - /url: /jsonviewer
+        - link "Recent Links" [ref=e16] [cursor=pointer]:
+          - /url: /recentLinksPage
+        - link "Sitemap" [ref=e17] [cursor=pointer]:
+          - /url: /all-tools
+        - generic [ref=e19] [cursor=pointer]: Favs
+        - link "Login" [ref=e21] [cursor=pointer]:
+          - /url: /login
+        - link "DarkMode in Beta" [ref=e22] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e24]
+  - separator [ref=e26]
+  - generic [ref=e28]:
+    - heading "Random Date Generator" [level=1] [ref=e30]
+    - generic [ref=e31]:
+      - button "Add to Fav" [ref=e32] [cursor=pointer]:
+        - img [ref=e34]
+        - generic [ref=e36]: Add to Fav
+      - button "New" [ref=e37] [cursor=pointer]
+      - button "Save & Share" [ref=e38] [cursor=pointer]
+  - generic [ref=e40]:
+    - separator [ref=e41]
+    - generic [ref=e42]:
+      - generic [ref=e44]:
+        - textbox "Generated Random Integer" [ref=e45]: 09-25-2013 07-21-2017 12-03-2009 12-11-2013 06-06-2017 10-26-2017 04-27-2019 08-21-2007 04-02-2013 09-03-2016 06-13-2004 03-06-2007 02-26-2016 06-22-2019 05-06-2017 10-21-2011 05-29-2002 02-21-2002 02-17-2016 08-11-2003
+        - button "Generate Random Date" [active] [ref=e46] [cursor=pointer]:
+          - generic [ref=e47]: Generate Random Date
+        - button [ref=e48] [cursor=pointer]:
+          - img [ref=e50]
+        - button "Download File" [ref=e52] [cursor=pointer]:
+          - img [ref=e54]
+      - generic [ref=e56]:
+        - heading "Calendar Date Options" [level=5] [ref=e58]
+        - generic [ref=e59]:
+          - generic [ref=e60]: How many dates to generate?
+          - spinbutton [ref=e62]: "20"
+        - generic [ref=e63]:
+          - generic [ref=e64]: Date Output Format
+          - combobox [ref=e66] [cursor=pointer]:
+            - option "MM-DD-YYYY" [selected]
+            - option "YYYY-MM-DD hh:mm:ss"
+            - option "YYYY-DD-MM hh:mm:ss"
+            - option "MM-DD-YYYY hh:mm:ss"
+            - option "ISO 8601"
+            - option "Year Month Date hh:mm:ss"
+            - option "Year Date Month hh:mm:ss"
+            - option "Month Date Year hh:mm:ss"
+            - option "Custom date format"
+        - generic [ref=e67]:
+          - generic [ref=e68]: "Custom date format Use: YYYY YY MM month mon DD d hh h mm m ss s"
+          - textbox [ref=e70]: YY-MM-DD
+        - generic [ref=e71]:
+          - generic [ref=e72]: Start date
+          - textbox [ref=e74]: 2020-01-01
+        - generic [ref=e75]:
+          - generic [ref=e76]: End date
+          - textbox [ref=e78]: 1999-12-31
+  - generic [ref=e86]:
+    - generic [ref=e88]:
+      - heading "Random Date Generator Online" [level=2] [ref=e89]
+      - separator [ref=e90]
+      - generic [ref=e91]:
+        - paragraph [ref=e92]: Random Date Generator helps to generate random dates based on the parameters provided by the user.
+        - paragraph [ref=e93]: Random Date Generator tool is handy in various applications, including quality assurance testing, simulations, and data analysis.
+        - heading "Use Cases for Date Generator" [level=2] [ref=e94]:
+          - text: Use Cases for
+          - emphasis [ref=e95]: Date Generator
+        - list [ref=e96]:
+          - listitem [ref=e97]: Testing and Quality Assurance
+          - listitem [ref=e98]: Data Privacy
+          - listitem [ref=e99]: Statistical Analysis
+          - listitem [ref=e100]: Sample Data Creation
+          - listitem [ref=e101]: Load Testing
+          - listitem [ref=e102]: Randomized Studies
+          - listitem [ref=e103]: Security Testing
+          - listitem [ref=e104]: Education and Training
+          - listitem [ref=e105]: Random Sampling
+        - heading "What can you do with the Date Generator?" [level=2] [ref=e106]:
+          - text: What can you do with the
+          - emphasis [ref=e107]: Date Generator
+          - text: "?"
+        - list [ref=e108]:
+          - listitem [ref=e109]: Random Date Generator useful to generate random date based on the parameters, such as.
+          - list [ref=e110]:
+            - listitem [ref=e111]: Date Format (MM-DD-YYYY) and Many more supported
+            - listitem [ref=e112]: Number of Dates
+            - listitem [ref=e113]: Custom Date Format
+            - listitem [ref=e114]: Start Date
+            - listitem [ref=e115]: End Date
+          - listitem [ref=e116]: Date Generator tool that can be valuable in multiple fields.
+          - listitem [ref=e117]: Random Date Generator Online works well on Windows, MAC, Linux, Chrome, Firefox, Edge, and Safari.
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - paragraph [ref=e120]: Related Tools
+        - separator [ref=e121]
+        - generic [ref=e122]:
+          - link "Date Time calculator" [ref=e123] [cursor=pointer]:
+            - /url: /date-time-calculater
+          - link "HTML DATE and Time" [ref=e124] [cursor=pointer]:
+            - /url: /html-date-and-time-input-generator
+          - link "Time Sheet Calculator" [ref=e125] [cursor=pointer]:
+            - /url: /time-sheet-calculator
+          - link "Time Converter" [ref=e126] [cursor=pointer]:
+            - /url: /time-converter
+      - generic [ref=e127]:
+        - paragraph [ref=e128]: Recently visited pages
+        - separator [ref=e129]
+        - generic:
+          - list
+      - generic [ref=e130]:
+        - paragraph [ref=e131]: Tags
+        - separator [ref=e132]
+        - generic [ref=e133]:
+          - link "Random" [ref=e134] [cursor=pointer]:
+            - /url: /random-tools
+          - link "CSV" [ref=e135] [cursor=pointer]:
+            - /url: /csv-tools
+  - contentinfo [ref=e137]:
+    - generic [ref=e138]:
+      - heading "Code Beautify" [level=2] [ref=e140]:
+        - strong [ref=e141]: Code Beautify
+      - separator [ref=e142]
+      - generic [ref=e143]:
+        - generic [ref=e144]:
+          - paragraph [ref=e145]: Color Converters
+          - list [ref=e146]:
+            - listitem [ref=e147]:
+              - link "HEX to Colortone Converter" [ref=e148] [cursor=pointer]:
+                - /url: /hex-to-colortone-converter
+            - listitem [ref=e149]:
+              - link "RGB to Colortone Converter" [ref=e150] [cursor=pointer]:
+                - /url: /rgb-to-colortone-converter
+            - listitem [ref=e151]:
+              - link "HSV to Colortone Converter" [ref=e152] [cursor=pointer]:
+                - /url: /hsv-to-colortone-converter
+            - listitem [ref=e153]:
+              - link "CMYK to Colortone Converter" [ref=e154] [cursor=pointer]:
+                - /url: /cmyk-to-colortone-converter
+            - listitem [ref=e155]:
+              - link "CMYK to HEX Converter" [ref=e156] [cursor=pointer]:
+                - /url: /cmyk-to-hex-converter
+            - listitem [ref=e157]:
+              - link "CMYK to RGB Converter" [ref=e158] [cursor=pointer]:
+                - /url: /cmyk-to-rgb-converter
+            - listitem [ref=e159]:
+              - link "CMYK to HSV Converter" [ref=e160] [cursor=pointer]:
+                - /url: /cmyk-to-hsv-converter
+            - listitem [ref=e161]:
+              - link "HSV to HEX Converter" [ref=e162] [cursor=pointer]:
+                - /url: /hsv-to-hex-converter
+            - listitem [ref=e163]:
+              - link "HSV to RGB Converter" [ref=e164] [cursor=pointer]:
+                - /url: /hsv-to-rgb-converter
+            - listitem [ref=e165]:
+              - link "HSV to CMYK Converter" [ref=e166] [cursor=pointer]:
+                - /url: /hsv-to-cmyk-converter
+            - listitem [ref=e167]:
+              - link "HEX to HSV Converter" [ref=e168] [cursor=pointer]:
+                - /url: /hex-to-hsv-converter
+            - listitem [ref=e169]:
+              - link "RGB to HEX Converter" [ref=e170] [cursor=pointer]:
+                - /url: /rgb-to-hex-converter
+            - listitem [ref=e171]:
+              - link "RGB to HSV Converter" [ref=e172] [cursor=pointer]:
+                - /url: /rgb-to-hsv-converter
+            - listitem [ref=e173]:
+              - link "RGB to CMYK Converter" [ref=e174] [cursor=pointer]:
+                - /url: /rgb-to-cmyk-converter
+            - listitem [ref=e175]:
+              - link "HEX to RGB Converter" [ref=e176] [cursor=pointer]:
+                - /url: /hex-to-rgb-converter
+            - listitem [ref=e177]:
+              - link "HEX to CMYK Converter" [ref=e178] [cursor=pointer]:
+                - /url: /hex-to-cmyk-converter
+            - listitem [ref=e179]:
+              - link "Colortone to HEX Converter" [ref=e180] [cursor=pointer]:
+                - /url: /colortone-to-hex-converter
+            - listitem [ref=e181]:
+              - link "Colortone to RGB Converter" [ref=e182] [cursor=pointer]:
+                - /url: /colortone-to-rgb-converter
+            - listitem [ref=e183]:
+              - link "Colortone to CMYK Converter" [ref=e184] [cursor=pointer]:
+                - /url: /colortone-to-cmyk-converter
+            - listitem [ref=e185]:
+              - link "Colortone to HSV Converter" [ref=e186] [cursor=pointer]:
+                - /url: /colortone-to-hsv-converter
+          - paragraph [ref=e187]:
+            - link "Unit Converter" [ref=e188] [cursor=pointer]:
+              - /url: /unit-tools
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - link "Length Converter" [ref=e191] [cursor=pointer]:
+                - /url: /length-converter
+            - listitem [ref=e192]:
+              - link "Weight Converter" [ref=e193] [cursor=pointer]:
+                - /url: /weight-converter
+            - listitem [ref=e194]:
+              - link "Volume Converter" [ref=e195] [cursor=pointer]:
+                - /url: /volume-converter
+            - listitem [ref=e196]:
+              - link "Area Converter" [ref=e197] [cursor=pointer]:
+                - /url: /area-converter
+            - listitem [ref=e198]:
+              - link "Time Converter" [ref=e199] [cursor=pointer]:
+                - /url: /time-converter
+            - listitem [ref=e200]:
+              - link "Unix Timestamp Converter" [ref=e201] [cursor=pointer]:
+                - /url: /unix-time-stamp-converter
+            - listitem [ref=e202]:
+              - link "More Unit Tools" [ref=e203] [cursor=pointer]:
+                - /url: /unit-tools
+          - paragraph [ref=e204]:
+            - link "SQL Converters" [ref=e205] [cursor=pointer]:
+              - /url: /sql-tools
+          - list [ref=e206]:
+            - listitem [ref=e207]:
+              - link "SQL to CSV Converter" [ref=e208] [cursor=pointer]:
+                - /url: /sql-to-csv-converter
+            - listitem [ref=e209]:
+              - link "SQL to JSON Converter" [ref=e210] [cursor=pointer]:
+                - /url: /sql-to-json-converter
+            - listitem [ref=e211]:
+              - link "SQL to XML Converter" [ref=e212] [cursor=pointer]:
+                - /url: /sql-to-xml-converter
+            - listitem [ref=e213]:
+              - link "SQL to YAML Converter" [ref=e214] [cursor=pointer]:
+                - /url: /sql-to-yaml-converter
+            - listitem [ref=e215]:
+              - link "SQL to HTML Converter" [ref=e216] [cursor=pointer]:
+                - /url: /sql-to-html-converter
+          - paragraph [ref=e217]: Encode and Decode
+          - list [ref=e218]:
+            - listitem [ref=e219]:
+              - link "Base32 Encode" [ref=e220] [cursor=pointer]:
+                - /url: /base32-encode
+            - listitem [ref=e221]:
+              - link "Base32 Decode" [ref=e222] [cursor=pointer]:
+                - /url: /base32-decode
+            - listitem [ref=e223]:
+              - link "Base58 Encode" [ref=e224] [cursor=pointer]:
+                - /url: /base58-encode
+            - listitem [ref=e225]:
+              - link "Base58 Decode" [ref=e226] [cursor=pointer]:
+                - /url: /base58-decode
+            - listitem [ref=e227]:
+              - link "Base64 Encode" [ref=e228] [cursor=pointer]:
+                - /url: /base64-encode
+            - listitem [ref=e229]:
+              - link "Base64 Decode" [ref=e230] [cursor=pointer]:
+                - /url: /base64-decode
+            - listitem [ref=e231]:
+              - link "URL Encode Online" [ref=e232] [cursor=pointer]:
+                - /url: /url-encode-string
+            - listitem [ref=e233]:
+              - link "URL Decode Online" [ref=e234] [cursor=pointer]:
+                - /url: /url-decode-string
+            - listitem [ref=e235]:
+              - link "JSON URL Encode" [ref=e236] [cursor=pointer]:
+                - /url: /json-url-encode
+            - listitem [ref=e237]:
+              - link "JSON URL Decode" [ref=e238] [cursor=pointer]:
+                - /url: /json-url-decode
+            - listitem [ref=e239]:
+              - link "HTML Encode" [ref=e240] [cursor=pointer]:
+                - /url: /html-encode-string
+            - listitem [ref=e241]:
+              - link "HTML Decode" [ref=e242] [cursor=pointer]:
+                - /url: /html-decode-string
+            - listitem [ref=e243]:
+              - link "XML URL Encoding" [ref=e244] [cursor=pointer]:
+                - /url: /xml-url-encoding
+            - listitem [ref=e245]:
+              - link "XML URL Decoding" [ref=e246] [cursor=pointer]:
+                - /url: /xml-url-decoding
+            - listitem [ref=e247]:
+              - link "UTF8 Converter" [ref=e248] [cursor=pointer]:
+                - /url: /utf8-converter
+            - listitem [ref=e249]:
+              - link "UTF8 Decode" [ref=e250] [cursor=pointer]:
+                - /url: /utf8-decode
+            - listitem [ref=e251]:
+              - link "Hex to UTF8" [ref=e252] [cursor=pointer]:
+                - /url: /hex-to-utf8
+            - listitem [ref=e253]:
+              - link "JSON Decode Online" [ref=e254] [cursor=pointer]:
+                - /url: /json-decode-online
+            - listitem [ref=e255]:
+              - link "JSON Encode Online" [ref=e256] [cursor=pointer]:
+                - /url: /json-encode-online
+          - paragraph [ref=e257]:
+            - link "Base64 Tools" [ref=e258] [cursor=pointer]:
+              - /url: /base64-tools
+          - list [ref=e259]:
+            - listitem [ref=e260]:
+              - link "Image to Base64" [ref=e261] [cursor=pointer]:
+                - /url: /image-to-base64-converter
+            - listitem [ref=e262]:
+              - link "Base64 to Image" [ref=e263] [cursor=pointer]:
+                - /url: /base64-to-image-converter
+            - listitem [ref=e264]:
+              - link "PNG to Base64" [ref=e265] [cursor=pointer]:
+                - /url: /png-to-base64-converter
+            - listitem [ref=e266]:
+              - link "JPG to Base64" [ref=e267] [cursor=pointer]:
+                - /url: /jpg-to-base64-converter
+            - listitem [ref=e268]:
+              - link "JSON to Base64" [ref=e269] [cursor=pointer]:
+                - /url: /json-to-base64-converter
+            - listitem [ref=e270]:
+              - link "XML to Base64" [ref=e271] [cursor=pointer]:
+                - /url: /xml-to-base64-converter
+            - listitem [ref=e272]:
+              - link "YAML to Base64" [ref=e273] [cursor=pointer]:
+                - /url: /yaml-to-base64-converter
+            - listitem [ref=e274]:
+              - link "Base64 to JSON" [ref=e275] [cursor=pointer]:
+                - /url: /base64-to-json-converter
+            - listitem [ref=e276]:
+              - link "Base64 to XML" [ref=e277] [cursor=pointer]:
+                - /url: /base64-to-xml-converter
+            - listitem [ref=e278]:
+              - link "Base64 to YAML" [ref=e279] [cursor=pointer]:
+                - /url: /base64-to-yaml-converter
+            - listitem [ref=e280]:
+              - link "CSV to Base64" [ref=e281] [cursor=pointer]:
+                - /url: /csv-to-base64-converter
+            - listitem [ref=e282]:
+              - link "Base64 to CSV" [ref=e283] [cursor=pointer]:
+                - /url: /base64-to-csv-converter
+            - listitem [ref=e284]:
+              - link "TSV to Base64" [ref=e285] [cursor=pointer]:
+                - /url: /tsv-to-base64-converter
+            - listitem [ref=e286]:
+              - link "Base64 to TSV" [ref=e287] [cursor=pointer]:
+                - /url: /base64-to-tsv-converter
+            - listitem [ref=e288]:
+              - link "Binary to Base64" [ref=e289] [cursor=pointer]:
+                - /url: /binary-to-base64-converter
+            - listitem [ref=e290]:
+              - link "Base64 to Binary" [ref=e291] [cursor=pointer]:
+                - /url: /base64-to-binary-converter
+            - listitem [ref=e292]:
+              - link "Hex to Base64" [ref=e293] [cursor=pointer]:
+                - /url: /hex-to-base64-converter
+            - listitem [ref=e294]:
+              - link "Base64 to Hex" [ref=e295] [cursor=pointer]:
+                - /url: /base64-to-hex-converter
+            - listitem [ref=e296]:
+              - link "Octal to Base64" [ref=e297] [cursor=pointer]:
+                - /url: /octal-to-base64-converter
+            - listitem [ref=e298]:
+              - link "More Base64 Tools" [ref=e299] [cursor=pointer]:
+                - /url: /base64-tools
+          - paragraph [ref=e300]:
+            - link "Image Tools" [ref=e301] [cursor=pointer]:
+              - /url: /image-converter-tools
+          - list [ref=e302]:
+            - listitem [ref=e303]:
+              - link "JPG to PNG" [ref=e304] [cursor=pointer]:
+                - /url: /jpg-to-png-converter
+            - listitem [ref=e305]:
+              - link "BMP to PNG" [ref=e306] [cursor=pointer]:
+                - /url: /bmp-to-png-converter
+            - listitem [ref=e307]:
+              - link "PNG to JPG" [ref=e308] [cursor=pointer]:
+                - /url: /png-to-jpg-converter
+            - listitem [ref=e309]:
+              - link "GIF Splitter" [ref=e310] [cursor=pointer]:
+                - /url: /gif-splitter
+            - listitem [ref=e311]:
+              - link "GIF Viewer" [ref=e312] [cursor=pointer]:
+                - /url: /gif-viewer
+            - listitem [ref=e313]:
+              - link "More Image Tools" [ref=e314] [cursor=pointer]:
+                - /url: /image-converter-tools
+        - generic [ref=e315]:
+          - paragraph [ref=e316]: Converters
+          - list [ref=e317]:
+            - listitem [ref=e318]:
+              - link "Image to Base64" [ref=e319] [cursor=pointer]:
+                - /url: /image-to-base64-converter
+            - listitem [ref=e320]:
+              - link "Base64 to Image" [ref=e321] [cursor=pointer]:
+                - /url: /base64-to-image-converter
+            - listitem [ref=e322]:
+              - link "Date Calculater" [ref=e323] [cursor=pointer]:
+                - /url: /date-time-calculater
+            - listitem [ref=e324]:
+              - link "EXCEL to HTML" [ref=e325] [cursor=pointer]:
+                - /url: /excel-to-html
+            - listitem [ref=e326]:
+              - link "EXCEL to XML" [ref=e327] [cursor=pointer]:
+                - /url: /excel-to-xml
+            - listitem [ref=e328]:
+              - link "EXCEL to JSON" [ref=e329] [cursor=pointer]:
+                - /url: /excel-to-json
+            - listitem [ref=e330]:
+              - link "OPML to JSON" [ref=e331] [cursor=pointer]:
+                - /url: /opml-to-json-converter
+            - listitem [ref=e332]:
+              - link "Word to HTML" [ref=e333] [cursor=pointer]:
+                - /url: /word-to-html-converter
+            - listitem [ref=e334]:
+              - link "Online Tableizer" [ref=e335] [cursor=pointer]:
+                - /url: /tableizer
+          - paragraph [ref=e336]: JSON Converters
+          - list [ref=e337]:
+            - listitem [ref=e338]:
+              - link "JSON to JAVA" [ref=e339] [cursor=pointer]:
+                - /url: /json-to-java-converter
+            - listitem [ref=e340]:
+              - link "JSON to XML" [ref=e341] [cursor=pointer]:
+                - /url: /jsontoxml
+            - listitem [ref=e342]:
+              - link "JSON to YAML" [ref=e343] [cursor=pointer]:
+                - /url: /json-to-yaml
+            - listitem [ref=e344]:
+              - link "JSON to CSV" [ref=e345] [cursor=pointer]:
+                - /url: /json-to-csv
+            - listitem [ref=e346]:
+              - link "JSON to TSV" [ref=e347] [cursor=pointer]:
+                - /url: /json-to-tsv-converter
+            - listitem [ref=e348]:
+              - link "JSON to Text" [ref=e349] [cursor=pointer]:
+                - /url: /json-to-text-converter
+            - listitem [ref=e350]:
+              - link "JSON to Excel" [ref=e351] [cursor=pointer]:
+                - /url: /json-to-excel-converter
+            - listitem [ref=e352]:
+              - link "JSON to HTML" [ref=e353] [cursor=pointer]:
+                - /url: /json-to-html-converter
+          - paragraph [ref=e354]: XML Converters
+          - list [ref=e355]:
+            - listitem [ref=e356]:
+              - link "XML Converter" [ref=e357] [cursor=pointer]:
+                - /url: /xml-converter-online
+            - listitem [ref=e358]:
+              - link "XML to JSON" [ref=e359] [cursor=pointer]:
+                - /url: /xmltojson
+            - listitem [ref=e360]:
+              - link "XML to YAML" [ref=e361] [cursor=pointer]:
+                - /url: /xml-to-yaml
+            - listitem [ref=e362]:
+              - link "XML to CSV" [ref=e363] [cursor=pointer]:
+                - /url: /xml-to-csv-converter
+            - listitem [ref=e364]:
+              - link "XML to TSV" [ref=e365] [cursor=pointer]:
+                - /url: /xml-to-tsv-converter
+            - listitem [ref=e366]:
+              - link "XML to Text" [ref=e367] [cursor=pointer]:
+                - /url: /xml-to-text-converter
+            - listitem [ref=e368]:
+              - link "XML-XSL Transform" [ref=e369] [cursor=pointer]:
+                - /url: /xml-xsl-transformation
+            - listitem [ref=e370]:
+              - link "XML to HTML" [ref=e371] [cursor=pointer]:
+                - /url: /xml-to-html-converter
+            - listitem [ref=e372]:
+              - link "XML to Excel" [ref=e373] [cursor=pointer]:
+                - /url: /xml-to-excel-converter
+            - listitem [ref=e374]:
+              - link "XML to JAVA" [ref=e375] [cursor=pointer]:
+                - /url: /xml-to-java-converter
+          - paragraph [ref=e376]: HTML Converters
+          - list [ref=e377]:
+            - listitem [ref=e378]:
+              - link "HTML Stripper" [ref=e379] [cursor=pointer]:
+                - /url: /html-stripper
+            - listitem [ref=e380]:
+              - link "HTML Table Generator" [ref=e381] [cursor=pointer]:
+                - /url: /html-table-generator
+            - listitem [ref=e382]:
+              - link "HTML to CSV Converter" [ref=e383] [cursor=pointer]:
+                - /url: /html-to-csv-converter
+            - listitem [ref=e384]:
+              - link "HTML to TSV Converter" [ref=e385] [cursor=pointer]:
+                - /url: /html-to-tsv-converter
+            - listitem [ref=e386]:
+              - link "HTML to PHP Converter" [ref=e387] [cursor=pointer]:
+                - /url: /html-to-php-converter
+            - listitem [ref=e388]:
+              - link "HTML to CSV" [ref=e389] [cursor=pointer]:
+                - /url: /html-to-csv-converter
+            - listitem [ref=e390]:
+              - link "HTML to JSON" [ref=e391] [cursor=pointer]:
+                - /url: /html-to-json-converter
+            - listitem [ref=e392]:
+              - link "HTML to XML" [ref=e393] [cursor=pointer]:
+                - /url: /html-to-xml-converter
+            - listitem [ref=e394]:
+              - link "HTML to YAML" [ref=e395] [cursor=pointer]:
+                - /url: /html-to-yaml-converter
+            - listitem [ref=e396]:
+              - link "HTML to Text" [ref=e397] [cursor=pointer]:
+                - /url: /html-to-text-converter
+            - listitem [ref=e398]:
+              - link "Text to HTML Entities" [ref=e399] [cursor=pointer]:
+                - /url: /text-to-html-entities-converter
+            - listitem [ref=e400]:
+              - link "HTML Entities to Text" [ref=e401] [cursor=pointer]:
+                - /url: /html-entities-to-text-converter
+            - listitem [ref=e402]:
+              - link "HTML to Markdown" [ref=e403] [cursor=pointer]:
+                - /url: /html-to-markdown
+            - listitem [ref=e404]:
+              - link "Markdown to HTML" [ref=e405] [cursor=pointer]:
+                - /url: /markdown-to-html
+            - listitem [ref=e406]:
+              - link "PUG to HTML Converter" [ref=e407] [cursor=pointer]:
+                - /url: /pug-to-html-converter
+            - listitem [ref=e408]:
+              - link "HTML to PUG Converter" [ref=e409] [cursor=pointer]:
+                - /url: /html-to-pug-converter
+            - listitem [ref=e410]:
+              - link "JADE to HTML Converter" [ref=e411] [cursor=pointer]:
+                - /url: /jade-to-html-converter
+            - listitem [ref=e412]:
+              - link "HTML to JADE Converter" [ref=e413] [cursor=pointer]:
+                - /url: /html-to-jade-converter
+            - listitem [ref=e414]:
+              - link "HTML to BBCode Converter" [ref=e415] [cursor=pointer]:
+                - /url: /html-to-bbcode-converter
+            - listitem [ref=e416]:
+              - link "BBCode to HTML Converter" [ref=e417] [cursor=pointer]:
+                - /url: /bbcode-to-html-converter
+          - paragraph [ref=e418]: YAML Converters
+          - list [ref=e419]:
+            - listitem [ref=e420]:
+              - link "YAML Converter" [ref=e421] [cursor=pointer]:
+                - /url: /yaml-to-json-xml-csv
+            - listitem [ref=e422]:
+              - link "YAML to XML" [ref=e423] [cursor=pointer]:
+                - /url: /yaml-to-json-xml-csv
+            - listitem [ref=e424]:
+              - link "YAML to JSON" [ref=e425] [cursor=pointer]:
+                - /url: /yaml-to-json-xml-csv
+            - listitem [ref=e426]:
+              - link "YAML to CSV" [ref=e427] [cursor=pointer]:
+                - /url: /yaml-to-json-xml-csv
+            - listitem [ref=e428]:
+              - link "YAML to Excel" [ref=e429] [cursor=pointer]:
+                - /url: /yaml-to-excel-converter
+          - paragraph [ref=e430]: Utility
+          - list [ref=e431]:
+            - listitem [ref=e432]:
+              - link "Send Snap Message" [ref=e433] [cursor=pointer]:
+                - /url: /send-snap-message
+            - listitem [ref=e434]:
+              - link "Responsive Website Tester" [ref=e435] [cursor=pointer]:
+                - /url: /responsive-website-tester
+            - listitem [ref=e436]:
+              - link "Credit Card Validator" [ref=e437] [cursor=pointer]:
+                - /url: /credit-card-validate
+            - listitem [ref=e438]:
+              - link "Credit Card Fake Number Generator" [ref=e439] [cursor=pointer]:
+                - /url: /credit-card-fake-number-generator
+            - listitem [ref=e440]:
+              - link "XPath Tester" [ref=e441] [cursor=pointer]:
+                - /url: /Xpath-Tester
+            - listitem [ref=e442]:
+              - link "JSON Path Tester" [ref=e443] [cursor=pointer]:
+                - /url: /jsonpath-tester
+            - listitem [ref=e444]:
+              - link "JSON Minifier" [ref=e445] [cursor=pointer]:
+                - /url: /jsonminifier
+            - listitem [ref=e446]:
+              - link "File Difference" [ref=e447] [cursor=pointer]:
+                - /url: /file-diff
+            - listitem [ref=e448]:
+              - link "JSON Diff" [ref=e449] [cursor=pointer]:
+                - /url: /json-diff
+            - listitem [ref=e450]:
+              - link "XML Diff" [ref=e451] [cursor=pointer]:
+                - /url: /xml-diff
+            - listitem [ref=e452]:
+              - link "Broken Link Checker" [ref=e453] [cursor=pointer]:
+                - /url: /broken-link-checker
+            - listitem [ref=e454]:
+              - link "JSON Deserialize Online" [ref=e455] [cursor=pointer]:
+                - /url: /json-deserialize-online
+            - listitem [ref=e456]:
+              - link "JSON Serialize Online" [ref=e457] [cursor=pointer]:
+                - /url: /json-serialize-online
+            - listitem [ref=e458]:
+              - link "JSON Stringify Online" [ref=e459] [cursor=pointer]:
+                - /url: /json-stringify-online
+            - listitem [ref=e460]:
+              - link "XML Stringify Online" [ref=e461] [cursor=pointer]:
+                - /url: /xml-stringify-online
+            - listitem [ref=e462]:
+              - link "String to JSON Online" [ref=e463] [cursor=pointer]:
+                - /url: /string-to-json-online
+            - listitem [ref=e464]:
+              - link "JavaScript Obfuscator" [ref=e465] [cursor=pointer]:
+                - /url: /javascript-obfuscator
+            - listitem [ref=e466]:
+              - link "Curl to PHP" [ref=e467] [cursor=pointer]:
+                - /url: /curl-to-php-online
+            - listitem [ref=e468]:
+              - link "Crontab Format" [ref=e469] [cursor=pointer]:
+                - /url: /crontab-format
+          - paragraph [ref=e470]: Chart Tools
+          - list [ref=e471]:
+            - listitem [ref=e472]:
+              - link "Line Graph Maker" [ref=e473] [cursor=pointer]:
+                - /url: /line-graph-maker
+            - listitem [ref=e474]:
+              - link "Bar Graph Maker" [ref=e475] [cursor=pointer]:
+                - /url: /bar-graph-maker
+            - listitem [ref=e476]:
+              - link "Pie Chart Maker" [ref=e477] [cursor=pointer]:
+                - /url: /pie-chart-maker
+            - listitem [ref=e478]:
+              - link "Doughnut Chart Maker" [ref=e479] [cursor=pointer]:
+                - /url: /doughnut-chart-maker
+            - listitem [ref=e480]:
+              - link "Scatter Plot Maker" [ref=e481] [cursor=pointer]:
+                - /url: /scatter-plot-maker
+        - generic [ref=e482]:
+          - paragraph [ref=e483]: Viewers
+          - list [ref=e484]:
+            - listitem [ref=e485]:
+              - link "JSON Viewer" [ref=e486] [cursor=pointer]:
+                - /url: /jsonviewer
+            - listitem [ref=e487]:
+              - link "XML Viewer" [ref=e488] [cursor=pointer]:
+                - /url: /xmlviewer
+            - listitem [ref=e489]:
+              - link "YAML Viewer" [ref=e490] [cursor=pointer]:
+                - /url: /yaml-viewer-online
+            - listitem [ref=e491]:
+              - link "MXML Viewer" [ref=e492] [cursor=pointer]:
+                - /url: /mxmlviewer
+            - listitem [ref=e493]:
+              - link "HTML Viewer" [ref=e494] [cursor=pointer]:
+                - /url: /htmlviewer
+            - listitem [ref=e495]:
+              - link "JavaScript Viewer" [ref=e496] [cursor=pointer]:
+                - /url: /jsviewer
+            - listitem [ref=e497]:
+              - link "RSS Viewer" [ref=e498] [cursor=pointer]:
+                - /url: /rssviewer
+            - listitem [ref=e499]:
+              - link "SOURCE CODE Viewer" [ref=e500] [cursor=pointer]:
+                - /url: /source-code-viewer
+            - listitem [ref=e501]:
+              - link "OPML Viewer" [ref=e502] [cursor=pointer]:
+                - /url: /opmlviewer
+            - listitem [ref=e503]:
+              - link "CSV Viewer" [ref=e504] [cursor=pointer]:
+                - /url: /csv-viewer
+            - listitem [ref=e505]:
+              - link "BBCode Viewer" [ref=e506] [cursor=pointer]:
+                - /url: /bbcode-viewer
+            - listitem [ref=e507]:
+              - link "Markdown Viewer" [ref=e508] [cursor=pointer]:
+                - /url: /markdown-viewer
+          - paragraph [ref=e509]: Programming Editors
+          - list [ref=e510]:
+            - listitem [ref=e511]:
+              - link "XML Editor" [ref=e512] [cursor=pointer]:
+                - /url: /online-xml-editor
+            - listitem [ref=e513]:
+              - link "JSON Editor" [ref=e514] [cursor=pointer]:
+                - /url: /online-json-editor
+            - listitem [ref=e515]:
+              - link "Real Time HTML Editor" [ref=e516] [cursor=pointer]:
+                - /url: /real-time-html-editor
+            - listitem [ref=e517]:
+              - link "YAML Editor" [ref=e518] [cursor=pointer]:
+                - /url: /yaml-editor-online
+            - listitem [ref=e519]:
+              - link "ONLINE Editor" [ref=e520] [cursor=pointer]:
+                - /url: /alleditor
+            - listitem [ref=e521]:
+              - link "JAVA Editor" [ref=e522] [cursor=pointer]:
+                - /url: /javaviewer
+            - listitem [ref=e523]:
+              - link "C# Editor" [ref=e524] [cursor=pointer]:
+                - /url: /csharpviewer
+            - listitem [ref=e525]:
+              - link "Actionscript Editor" [ref=e526] [cursor=pointer]:
+                - /url: /actionscript
+            - listitem [ref=e527]:
+              - link "Markdown Editor" [ref=e528] [cursor=pointer]:
+                - /url: /markdown-editor
+          - paragraph [ref=e529]: Parsers
+          - list [ref=e530]:
+            - listitem [ref=e531]:
+              - link "URL Parser" [ref=e532] [cursor=pointer]:
+                - /url: /url-parser
+            - listitem [ref=e533]:
+              - link "JSON Parser" [ref=e534] [cursor=pointer]:
+                - /url: /json-parser-online
+            - listitem [ref=e535]:
+              - link "XML Parser" [ref=e536] [cursor=pointer]:
+                - /url: /xml-parser-online
+            - listitem [ref=e537]:
+              - link "YAML Parser" [ref=e538] [cursor=pointer]:
+                - /url: /yaml-parser-online
+          - paragraph [ref=e539]:
+            - link "CSS Tools" [ref=e540] [cursor=pointer]:
+              - /url: /css-tools
+          - list [ref=e541]:
+            - listitem [ref=e542]:
+              - link "CSS Beautifier" [ref=e543] [cursor=pointer]:
+                - /url: /css-beautify-minify
+            - listitem [ref=e544]:
+              - link "CSS to LESS" [ref=e545] [cursor=pointer]:
+                - /url: /css-to-less-converter
+            - listitem [ref=e546]:
+              - link "CSS to SCSS" [ref=e547] [cursor=pointer]:
+                - /url: /css-to-scss-converter
+            - listitem [ref=e548]:
+              - link "CSS to SASS" [ref=e549] [cursor=pointer]:
+                - /url: /css-to-sass-converter
+            - listitem [ref=e550]:
+              - link "CSS to Stylus" [ref=e551] [cursor=pointer]:
+                - /url: /css-to-stylus-converter
+            - listitem [ref=e552]:
+              - link "Stylus Compiler" [ref=e553] [cursor=pointer]:
+                - /url: /stylus-compiler
+            - listitem [ref=e554]:
+              - link "Stylus to CSS" [ref=e555] [cursor=pointer]:
+                - /url: /stylus-to-css-converter
+            - listitem [ref=e556]:
+              - link "Stylus to LESS" [ref=e557] [cursor=pointer]:
+                - /url: /stylus-to-less-converter
+            - listitem [ref=e558]:
+              - link "Stylus to SCSS" [ref=e559] [cursor=pointer]:
+                - /url: /stylus-to-scss-converter
+            - listitem [ref=e560]:
+              - link "Stylus to SASS" [ref=e561] [cursor=pointer]:
+                - /url: /stylus-to-sass-converter
+            - listitem [ref=e562]:
+              - link "LESS Compiler" [ref=e563] [cursor=pointer]:
+                - /url: /less-compiler
+            - listitem [ref=e564]:
+              - link "LESS to CSS" [ref=e565] [cursor=pointer]:
+                - /url: /less-to-css-converter
+            - listitem [ref=e566]:
+              - link "LESS to Stylus" [ref=e567] [cursor=pointer]:
+                - /url: /less-to-stylus-converter
+            - listitem [ref=e568]:
+              - link "LESS to SCSS" [ref=e569] [cursor=pointer]:
+                - /url: /less-to-scss-converter
+            - listitem [ref=e570]:
+              - link "LESS to SASS" [ref=e571] [cursor=pointer]:
+                - /url: /less-to-sass-converter
+            - listitem [ref=e572]:
+              - link "SCSS Compiler" [ref=e573] [cursor=pointer]:
+                - /url: /scss-compiler
+            - listitem [ref=e574]:
+              - link "SCSS to CSS" [ref=e575] [cursor=pointer]:
+                - /url: /scss-to-css-converter
+            - listitem [ref=e576]:
+              - link "SCSS to Stylus" [ref=e577] [cursor=pointer]:
+                - /url: /scss-to-stylus-converter
+            - listitem [ref=e578]:
+              - link "SCSS to LESS" [ref=e579] [cursor=pointer]:
+                - /url: /scss-to-less-converter
+            - listitem [ref=e580]:
+              - link "SCSS to SASS" [ref=e581] [cursor=pointer]:
+                - /url: /scss-to-sass-converter
+            - listitem [ref=e582]:
+              - link "SASS Compiler" [ref=e583] [cursor=pointer]:
+                - /url: /sass-compiler
+            - listitem [ref=e584]:
+              - link "SASS to CSS" [ref=e585] [cursor=pointer]:
+                - /url: /sass-to-css-converter
+            - listitem [ref=e586]:
+              - link "SASS to Stylus" [ref=e587] [cursor=pointer]:
+                - /url: /sass-to-stylus-converter
+            - listitem [ref=e588]:
+              - link "SASS to SCSS" [ref=e589] [cursor=pointer]:
+                - /url: /sass-to-scss-converter
+            - listitem [ref=e590]:
+              - link "SASS to LESS" [ref=e591] [cursor=pointer]:
+                - /url: /sass-to-less-converter
+          - paragraph [ref=e592]:
+            - link "Escape Unescape" [ref=e593] [cursor=pointer]:
+              - /url: /escape-unescape-tools
+          - list [ref=e594]:
+            - listitem [ref=e595]:
+              - link "HTML Escape Unescape" [ref=e596] [cursor=pointer]:
+                - /url: /html-escape-unescape
+            - listitem [ref=e597]:
+              - link "XML Escape Unescape" [ref=e598] [cursor=pointer]:
+                - /url: /xml-escape-unescape
+            - listitem [ref=e599]:
+              - link "Java Escape Unescape" [ref=e600] [cursor=pointer]:
+                - /url: /java-escape-unescape
+            - listitem [ref=e601]:
+              - link "C# Escape Unescape" [ref=e602] [cursor=pointer]:
+                - /url: /csharp-escape-unescape
+            - listitem [ref=e603]:
+              - link "Javascript Escape Unescape" [ref=e604] [cursor=pointer]:
+                - /url: /javascript-escape-unescape
+            - listitem [ref=e605]:
+              - link "CSV Escape Unescape" [ref=e606] [cursor=pointer]:
+                - /url: /csv-escape-unescape
+            - listitem [ref=e607]:
+              - link "SQL Escape Unescape" [ref=e608] [cursor=pointer]:
+                - /url: /sql-escape-unescape
+            - listitem [ref=e609]:
+              - link "JSON Escape Unescape" [ref=e610] [cursor=pointer]:
+                - /url: /json-escape-unescape
+            - listitem [ref=e611]:
+              - link "Un-Google Link" [ref=e612] [cursor=pointer]:
+                - /url: /un-google-link
+          - paragraph [ref=e613]: CryptoGraphy Tools
+          - list [ref=e614]:
+            - listitem [ref=e615]:
+              - link "Encryption-Decryption" [ref=e616] [cursor=pointer]:
+                - /url: /encrypt-decrypt
+            - listitem [ref=e617]:
+              - link "HMAC Generator" [ref=e618] [cursor=pointer]:
+                - /url: /hmac-generator
+            - listitem [ref=e619]:
+              - link "MD2 Hash Generator" [ref=e620] [cursor=pointer]:
+                - /url: /md2-hash-generator
+            - listitem [ref=e621]:
+              - link "MD4 Hash Generator" [ref=e622] [cursor=pointer]:
+                - /url: /md4-hash-generator
+            - listitem [ref=e623]:
+              - link "MD5 Hash Generator" [ref=e624] [cursor=pointer]:
+                - /url: /md5-hash-generator
+            - listitem [ref=e625]:
+              - link "MD6 Hash Generator" [ref=e626] [cursor=pointer]:
+                - /url: /md6-hash-generator
+            - listitem [ref=e627]:
+              - link "NTLM Hash Generator" [ref=e628] [cursor=pointer]:
+                - /url: /ntlm-hash-generator
+            - listitem [ref=e629]:
+              - link "SHA1 Hash Generator" [ref=e630] [cursor=pointer]:
+                - /url: /sha1-hash-generator
+            - listitem [ref=e631]:
+              - link "SHA2 Hash Generator" [ref=e632] [cursor=pointer]:
+                - /url: /sha2-hash-generator
+            - listitem [ref=e633]:
+              - link "SHA224 Hash Generator" [ref=e634] [cursor=pointer]:
+                - /url: /sha224-hash-generator
+            - listitem [ref=e635]:
+              - link "SHA256 Hash Generator" [ref=e636] [cursor=pointer]:
+                - /url: /sha256-hash-generator
+            - listitem [ref=e637]:
+              - link "SHA384 Hash Generator" [ref=e638] [cursor=pointer]:
+                - /url: /sha384-hash-generator
+            - listitem [ref=e639]:
+              - link "SHA512 Hash Generator" [ref=e640] [cursor=pointer]:
+                - /url: /sha512-hash-generator
+            - listitem [ref=e641]:
+              - link "SHA512/224 Hash Generator" [ref=e642] [cursor=pointer]:
+                - /url: /sha512-224-hash-generator
+            - listitem [ref=e643]:
+              - link "SHA512/256 Hash Generator" [ref=e644] [cursor=pointer]:
+                - /url: /sha512-256-hash-generator
+            - listitem [ref=e645]:
+              - link "SHA3-224 Hash Generator" [ref=e646] [cursor=pointer]:
+                - /url: /sha3-224-hash-generator
+            - listitem [ref=e647]:
+              - link "SHA3-256 Hash Generator" [ref=e648] [cursor=pointer]:
+                - /url: /sha3-256-hash-generator
+            - listitem [ref=e649]:
+              - link "SHA3-384 Hash Generator" [ref=e650] [cursor=pointer]:
+                - /url: /sha3-384-hash-generator
+            - listitem [ref=e651]:
+              - link "SHA3-512 Hash Generator" [ref=e652] [cursor=pointer]:
+                - /url: /sha3-512-hash-generator
+            - listitem [ref=e653]:
+              - link "CRC-16 Hash Generator" [ref=e654] [cursor=pointer]:
+                - /url: /crc-16-hash-generator
+            - listitem [ref=e655]:
+              - link "CRC-32 Hash Generator" [ref=e656] [cursor=pointer]:
+                - /url: /crc-32-hash-generator
+            - listitem [ref=e657]:
+              - link "Shake-128 Hash Generator" [ref=e658] [cursor=pointer]:
+                - /url: /shake-128-hash-generator
+            - listitem [ref=e659]:
+              - link "Shake-256 Hash Generator" [ref=e660] [cursor=pointer]:
+                - /url: /shake-256-hash-generator
+            - listitem [ref=e661]:
+              - link "Whirlpool Hash Generator" [ref=e662] [cursor=pointer]:
+                - /url: /whirlpool-hash-generator
+            - listitem [ref=e663]:
+              - link "Wordpress Password Hash Generator" [ref=e664] [cursor=pointer]:
+                - /url: /wordpress-password-hash-generator
+        - generic [ref=e665]:
+          - paragraph [ref=e666]:
+            - link "Beautifiers" [ref=e667] [cursor=pointer]:
+              - /url: /formatters-and-beautifiers
+          - list [ref=e668]:
+            - listitem [ref=e669]:
+              - link "JSON Beautifier" [ref=e670] [cursor=pointer]:
+                - /url: /jsonviewer
+            - listitem [ref=e671]:
+              - link "CSS Beautifier" [ref=e672] [cursor=pointer]:
+                - /url: /css-beautify-minify
+            - listitem [ref=e673]:
+              - link "XML Beautifier" [ref=e674] [cursor=pointer]:
+                - /url: /xmlviewer
+            - listitem [ref=e675]:
+              - link "Javascript Beautifier" [ref=e676] [cursor=pointer]:
+                - /url: /jsviewer
+            - listitem [ref=e677]:
+              - link "YAML Beautifier" [ref=e678] [cursor=pointer]:
+                - /url: /yaml-beautifier
+            - listitem [ref=e679]:
+              - link "C# Beautifier" [ref=e680] [cursor=pointer]:
+                - /url: /csharpviewer
+            - listitem [ref=e681]:
+              - link "Java Beautifier" [ref=e682] [cursor=pointer]:
+                - /url: /javaviewer
+            - listitem [ref=e683]:
+              - link "C Beautifier" [ref=e684] [cursor=pointer]:
+                - /url: /c-formatter-beautifier
+            - listitem [ref=e685]:
+              - link "C++ Beautifier" [ref=e686] [cursor=pointer]:
+                - /url: /cpp-formatter-beautifier
+            - listitem [ref=e687]:
+              - link "TypeScript Formatter" [ref=e688] [cursor=pointer]:
+                - /url: /typescript-formatter-online
+            - listitem [ref=e689]:
+              - link "SQL Formatter" [ref=e690] [cursor=pointer]:
+                - /url: /sqlformatter
+            - listitem [ref=e691]:
+              - link "Babel Formatter" [ref=e692] [cursor=pointer]:
+                - /url: /babel-formatter
+            - listitem [ref=e693]:
+              - link "Markdown Formatter" [ref=e694] [cursor=pointer]:
+                - /url: /markdown-formatter
+            - listitem [ref=e695]:
+              - link "MDX Formatter" [ref=e696] [cursor=pointer]:
+                - /url: /mdx-formatter
+            - listitem [ref=e697]:
+              - link "LESS Beautifier" [ref=e698] [cursor=pointer]:
+                - /url: /less-beautifier
+            - listitem [ref=e699]:
+              - link "SCSS Beautifier" [ref=e700] [cursor=pointer]:
+                - /url: /scss-beautifier
+            - listitem [ref=e701]:
+              - link "GraphQL Beautifier" [ref=e702] [cursor=pointer]:
+                - /url: /graphql-beautifier
+            - listitem [ref=e703]:
+              - link "PHP Beautifier" [ref=e704] [cursor=pointer]:
+                - /url: /php-beautifier
+            - listitem [ref=e705]:
+              - link "Python Beautifier" [ref=e706] [cursor=pointer]:
+                - /url: /python-formatter-beautifier
+            - listitem [ref=e707]:
+              - link "Perl Beautifier" [ref=e708] [cursor=pointer]:
+                - /url: /perl-formatter-beautifier
+            - listitem [ref=e709]:
+              - link "Ruby Beautifier" [ref=e710] [cursor=pointer]:
+                - /url: /ruby-formatter-beautifier
+            - listitem [ref=e711]:
+              - link "Angular Formatter" [ref=e712] [cursor=pointer]:
+                - /url: /angular-formatter
+            - listitem [ref=e713]:
+              - link "React Formatter" [ref=e714] [cursor=pointer]:
+                - /url: /react-formatter
+            - listitem [ref=e715]:
+              - link "Lua Beautifier" [ref=e716] [cursor=pointer]:
+                - /url: /lua-beautifier
+            - listitem [ref=e717]:
+              - link "XAML Beautifier" [ref=e718] [cursor=pointer]:
+                - /url: /xaml-beautifier
+          - paragraph [ref=e719]: Minifier
+          - list [ref=e720]:
+            - listitem [ref=e721]:
+              - link "JSON Minify" [ref=e722] [cursor=pointer]:
+                - /url: /jsonminifier
+            - listitem [ref=e723]:
+              - link "XML Minify" [ref=e724] [cursor=pointer]:
+                - /url: /xml-minifier
+            - listitem [ref=e725]:
+              - link "Minify JS" [ref=e726] [cursor=pointer]:
+                - /url: /minify-js
+            - listitem [ref=e727]:
+              - link "CSS Minify" [ref=e728] [cursor=pointer]:
+                - /url: /css-beautify-minify
+            - listitem [ref=e729]:
+              - link "SQL Minifier" [ref=e730] [cursor=pointer]:
+                - /url: /sql-minifier
+            - listitem [ref=e731]:
+              - link "Minify HTML" [ref=e732] [cursor=pointer]:
+                - /url: /minify-html
+            - listitem [ref=e733]:
+              - link "Lua Minifier" [ref=e734] [cursor=pointer]:
+                - /url: /lua-minifier
+            - listitem [ref=e735]:
+              - link "Text Minifier" [ref=e736] [cursor=pointer]:
+                - /url: /text-minifier
+          - paragraph [ref=e737]:
+            - link "CSV Tools" [ref=e738] [cursor=pointer]:
+              - /url: /csv-tools
+          - list [ref=e739]:
+            - listitem [ref=e740]:
+              - link "CSV Viewer" [ref=e741] [cursor=pointer]:
+                - /url: /csv-viewer
+            - listitem [ref=e742]:
+              - link "CSV to XML/JSON" [ref=e743] [cursor=pointer]:
+                - /url: /csv-to-xml-json
+            - listitem [ref=e744]:
+              - link "CSV to XML" [ref=e745] [cursor=pointer]:
+                - /url: /csv-to-xml-converter
+            - listitem [ref=e746]:
+              - link "CSV to JSON" [ref=e747] [cursor=pointer]:
+                - /url: /csv-to-json-converter
+            - listitem [ref=e748]:
+              - link "CSV to HTML" [ref=e749] [cursor=pointer]:
+                - /url: /csv-to-html-converter
+            - listitem [ref=e750]:
+              - link "CSV to TSV" [ref=e751] [cursor=pointer]:
+                - /url: /csv-to-tsv-converter
+            - listitem [ref=e752]:
+              - link "CSV to MULTILINE DATA" [ref=e753] [cursor=pointer]:
+                - /url: /csv-to-multi-line-converter
+            - listitem [ref=e754]:
+              - link "CSV to SQL" [ref=e755] [cursor=pointer]:
+                - /url: /csv-to-sql-converter
+            - listitem [ref=e756]:
+              - link "CSV to Excel" [ref=e757] [cursor=pointer]:
+                - /url: /csv-to-excel-converter
+          - paragraph [ref=e758]:
+            - link "String Utilities" [ref=e759] [cursor=pointer]:
+              - /url: /string-functions
+          - list [ref=e760]:
+            - listitem [ref=e761]:
+              - link "Upside Down Text" [ref=e762] [cursor=pointer]:
+                - /url: /upside-down-text
+            - listitem [ref=e763]:
+              - link "Random Word Generator" [ref=e764] [cursor=pointer]:
+                - /url: /random-word-generator
+            - listitem [ref=e765]:
+              - link "NTLM Hash Generator" [ref=e766] [cursor=pointer]:
+                - /url: /ntlm-hash-generator
+            - listitem [ref=e767]:
+              - link "Password Generator" [ref=e768] [cursor=pointer]:
+                - /url: /password-generator
+            - listitem [ref=e769]:
+              - link "String Builder" [ref=e770] [cursor=pointer]:
+                - /url: /string-builder
+            - listitem [ref=e771]:
+              - link "Number to Word Converter" [ref=e772] [cursor=pointer]:
+                - /url: /number-to-word-converter
+            - listitem [ref=e773]:
+              - link "Word to Number Converter" [ref=e774] [cursor=pointer]:
+                - /url: /word-to-number-converter
+            - listitem [ref=e775]:
+              - link "WORD COUNTER" [ref=e776] [cursor=pointer]:
+                - /url: /wordcounter
+            - listitem [ref=e777]:
+              - link "Word Repeater" [ref=e778] [cursor=pointer]:
+                - /url: /word-repeater
+            - listitem [ref=e779]:
+              - link "Reverse String" [ref=e780] [cursor=pointer]:
+                - /url: /reverse-string
+            - listitem [ref=e781]:
+              - link "String to Hex Converter" [ref=e782] [cursor=pointer]:
+                - /url: /string-hex-converter
+            - listitem [ref=e783]:
+              - link "Hex to String Converter" [ref=e784] [cursor=pointer]:
+                - /url: /hex-string-converter
+            - listitem [ref=e785]:
+              - link "String to Binary Converter" [ref=e786] [cursor=pointer]:
+                - /url: /string-binary-converter
+            - listitem [ref=e787]:
+              - link "Binary to String Converter" [ref=e788] [cursor=pointer]:
+                - /url: /binary-string-converter
+            - listitem [ref=e789]:
+              - link "Case Converter" [ref=e790] [cursor=pointer]:
+                - /url: /case-converter
+            - listitem [ref=e791]:
+              - link "Delimited Text Extractor" [ref=e792] [cursor=pointer]:
+                - /url: /delimited-text-extractor
+            - listitem [ref=e793]:
+              - link "Remove Accents" [ref=e794] [cursor=pointer]:
+                - /url: /remove-accents
+            - listitem [ref=e795]:
+              - link "Remove Duplicate Lines" [ref=e796] [cursor=pointer]:
+                - /url: /remove-duplicate-lines
+            - listitem [ref=e797]:
+              - link "Remove Empty Lines" [ref=e798] [cursor=pointer]:
+                - /url: /remove-empty-lines
+            - listitem [ref=e799]:
+              - link "Remove Extra Spaces" [ref=e800] [cursor=pointer]:
+                - /url: /remove-extra-spaces
+            - listitem [ref=e801]:
+              - link "Remove Whitespace" [ref=e802] [cursor=pointer]:
+                - /url: /remove-whitespace
+            - listitem [ref=e803]:
+              - link "Remove Line Breaks" [ref=e804] [cursor=pointer]:
+                - /url: /remove-line-breaks
+            - listitem [ref=e805]:
+              - link "Remove Lines Containing" [ref=e806] [cursor=pointer]:
+                - /url: /remove-lines-containing
+            - listitem [ref=e807]:
+              - link "Sort Text Lines" [ref=e808] [cursor=pointer]:
+                - /url: /sort-text-lines
+            - listitem [ref=e809]:
+              - link "Word Sorter" [ref=e810] [cursor=pointer]:
+                - /url: /word-sorter
+            - listitem [ref=e811]:
+              - link "Word Frequency Counter" [ref=e812] [cursor=pointer]:
+                - /url: /word-frequency-counter
+            - listitem [ref=e813]:
+              - link "Text Repeater" [ref=e814] [cursor=pointer]:
+                - /url: /text-repeater
+            - listitem [ref=e815]:
+              - link "Remove Punctuation" [ref=e816] [cursor=pointer]:
+                - /url: /remove-punctuation
+          - paragraph [ref=e817]: Syntax Highlighting
+          - list [ref=e818]:
+            - listitem [ref=e819]:
+              - link "JSON Syntax Highlighting" [ref=e820] [cursor=pointer]:
+                - /url: /json-syntax-highlighting
+            - listitem [ref=e821]:
+              - link "XML Highlighter" [ref=e822] [cursor=pointer]:
+                - /url: /xml-highlighter
+            - listitem [ref=e823]:
+              - link "XML Pretty Print" [ref=e824] [cursor=pointer]:
+                - /url: /xml-pretty-print
+            - listitem [ref=e825]:
+              - link "HTML Pretty Print" [ref=e826] [cursor=pointer]:
+                - /url: /html-pretty-print
+            - listitem [ref=e827]:
+              - link "JS Pretty Print" [ref=e828] [cursor=pointer]:
+                - /url: /javascript-pretty-print
+            - listitem [ref=e829]:
+              - link "Code Highlighter" [ref=e830] [cursor=pointer]:
+                - /url: /code-highlighter
+          - paragraph [ref=e831]:
+            - link "Compress / Decompress" [ref=e832] [cursor=pointer]:
+              - /url: /compress-decompress-tools
+          - list [ref=e833]:
+            - listitem [ref=e834]:
+              - link "GZip Decompress Online" [ref=e835] [cursor=pointer]:
+                - /url: /gzip-decompress-online
+            - listitem [ref=e836]:
+              - link "Zlib Decompress Online" [ref=e837] [cursor=pointer]:
+                - /url: /zlib-decompress-online
+        - generic [ref=e838]:
+          - paragraph [ref=e839]: Validators
+          - list [ref=e840]:
+            - listitem [ref=e841]:
+              - link "CSS Validator" [ref=e842] [cursor=pointer]:
+                - /url: /cssvalidate
+            - listitem [ref=e843]:
+              - link "JavaScript Validator" [ref=e844] [cursor=pointer]:
+                - /url: /jsvalidate
+            - listitem [ref=e845]:
+              - link "JSON Validator" [ref=e846] [cursor=pointer]:
+                - /url: /jsonvalidator
+            - listitem [ref=e847]:
+              - link "JSON5 Validator" [ref=e848] [cursor=pointer]:
+                - /url: /json5-validator
+            - listitem [ref=e849]:
+              - link "XML Validator" [ref=e850] [cursor=pointer]:
+                - /url: /xmlvalidator
+            - listitem [ref=e851]:
+              - link "Credit Card Validator" [ref=e852] [cursor=pointer]:
+                - /url: /credit-card-validate
+            - listitem [ref=e853]:
+              - link "API Test" [ref=e854] [cursor=pointer]:
+                - /url: /api-test
+            - listitem [ref=e855]:
+              - link "YAML Validator" [ref=e856] [cursor=pointer]:
+                - /url: /yaml-validator
+          - paragraph [ref=e857]:
+            - link "Number Utilities" [ref=e858] [cursor=pointer]:
+              - /url: /number-tools
+          - list [ref=e859]:
+            - listitem [ref=e860]:
+              - link "All Numbers Converter" [ref=e861] [cursor=pointer]:
+                - /url: /all-number-converter
+            - listitem [ref=e862]:
+              - link "Decimal to Binary" [ref=e863] [cursor=pointer]:
+                - /url: /decimal-binary-converter
+            - listitem [ref=e864]:
+              - link "Decimal to Octal" [ref=e865] [cursor=pointer]:
+                - /url: /decimal-octal-converter
+            - listitem [ref=e866]:
+              - link "Binary to Decimal" [ref=e867] [cursor=pointer]:
+                - /url: /binary-decimal-converter
+            - listitem [ref=e868]:
+              - link "Binary to Hex" [ref=e869] [cursor=pointer]:
+                - /url: /binary-hex-converter
+            - listitem [ref=e870]:
+              - link "Binary to Octal" [ref=e871] [cursor=pointer]:
+                - /url: /binary-octal-converter
+            - listitem [ref=e872]:
+              - link "Hex to Decimal" [ref=e873] [cursor=pointer]:
+                - /url: /hex-decimal-converter
+            - listitem [ref=e874]:
+              - link "Hex to Binary" [ref=e875] [cursor=pointer]:
+                - /url: /hex-binary-converter
+            - listitem [ref=e876]:
+              - link "Hex to Octal" [ref=e877] [cursor=pointer]:
+                - /url: /hex-octal-converter
+            - listitem [ref=e878]:
+              - link "Octal toDecimal" [ref=e879] [cursor=pointer]:
+                - /url: /octal-decimal-converter
+            - listitem [ref=e880]:
+              - link "Octal to Binary" [ref=e881] [cursor=pointer]:
+                - /url: /octal-binary-converter
+            - listitem [ref=e882]:
+              - link "Octal to Hex" [ref=e883] [cursor=pointer]:
+                - /url: /octal-hex-converter
+            - listitem [ref=e884]:
+              - link "Binary to Text" [ref=e885] [cursor=pointer]:
+                - /url: /binary-to-text
+            - listitem [ref=e886]:
+              - link "Text to Binary" [ref=e887] [cursor=pointer]:
+                - /url: /text-to-binary
+            - listitem [ref=e888]:
+              - link "ASCII to Text" [ref=e889] [cursor=pointer]:
+                - /url: /ascii-to-text
+            - listitem [ref=e890]:
+              - link "Char to ASCII" [ref=e891] [cursor=pointer]:
+                - /url: /char-to-ascii
+            - listitem [ref=e892]:
+              - link "Reverse Hex" [ref=e893] [cursor=pointer]:
+                - /url: /reverse-hex
+          - paragraph [ref=e894]: Bitwise Tools
+          - list [ref=e895]:
+            - listitem [ref=e896]:
+              - link "Bitwise Calculator" [ref=e897] [cursor=pointer]:
+                - /url: /bitwise-calculator
+            - listitem [ref=e898]:
+              - link "XOR Calculator" [ref=e899] [cursor=pointer]:
+                - /url: /xor-calculator
+            - listitem [ref=e900]:
+              - link "AND Calculator" [ref=e901] [cursor=pointer]:
+                - /url: /and-calculator
+            - listitem [ref=e902]:
+              - link "NAND Calculator" [ref=e903] [cursor=pointer]:
+                - /url: /nand-calculator
+            - listitem [ref=e904]:
+              - link "OR Calculator" [ref=e905] [cursor=pointer]:
+                - /url: /or-calculator
+            - listitem [ref=e906]:
+              - link "NOR Calculator" [ref=e907] [cursor=pointer]:
+                - /url: /nor-calculator
+            - listitem [ref=e908]:
+              - link "XNOR Calculator" [ref=e909] [cursor=pointer]:
+                - /url: /xnor-calculator
+          - paragraph [ref=e910]:
+            - link "IP Tools" [ref=e911] [cursor=pointer]:
+              - /url: /ip-tools
+          - list [ref=e912]:
+            - listitem [ref=e913]:
+              - link "Hex to IP" [ref=e914] [cursor=pointer]:
+                - /url: /hex-to-ip-converter
+            - listitem [ref=e915]:
+              - link "IP to Hex" [ref=e916] [cursor=pointer]:
+                - /url: /ip-to-hex-converter
+            - listitem [ref=e917]:
+              - link "Binary to IP" [ref=e918] [cursor=pointer]:
+                - /url: /binary-to-ip-converter
+            - listitem [ref=e919]:
+              - link "IP to Binary" [ref=e920] [cursor=pointer]:
+                - /url: /ip-to-binary-converter
+            - listitem [ref=e921]:
+              - link "Decimal to IP" [ref=e922] [cursor=pointer]:
+                - /url: /decimal-to-ip-converter
+            - listitem [ref=e923]:
+              - link "IP to Decimal" [ref=e924] [cursor=pointer]:
+                - /url: /ip-to-decimal-converter
+            - listitem [ref=e925]:
+              - link "Octal to IP" [ref=e926] [cursor=pointer]:
+                - /url: /octal-to-ip-converter
+            - listitem [ref=e927]:
+              - link "IP to Octal" [ref=e928] [cursor=pointer]:
+                - /url: /ip-to-octal-converter
+            - listitem [ref=e929]:
+              - link "IPV6 to Binary" [ref=e930] [cursor=pointer]:
+                - /url: /ipv6-to-binary-converter
+          - paragraph [ref=e931]: Other Tools
+          - list [ref=e932]:
+            - listitem [ref=e933]:
+              - link "Lorem-Ipsum" [ref=e934] [cursor=pointer]:
+                - /url: /lorem-ipsum
+            - listitem [ref=e935]:
+              - link "Sharelink Generator" [ref=e936] [cursor=pointer]:
+                - /url: /share-link-generator
+            - listitem [ref=e937]:
+              - link "Hostname to IP" [ref=e938] [cursor=pointer]:
+                - /url: /hostname-to-ip
+            - listitem [ref=e939]:
+              - link "IP to Hostname" [ref=e940] [cursor=pointer]:
+                - /url: /ip-to-hostname
+            - listitem [ref=e941]:
+              - link "Phone to IP Address" [ref=e942] [cursor=pointer]:
+                - /url: /phone-number-to-ip-address-converter
+            - listitem [ref=e943]:
+              - link "IP Address to Phone" [ref=e944] [cursor=pointer]:
+                - /url: /ip-address-to-phone-number-converter
+            - listitem [ref=e945]:
+              - link "DNS Lookup" [ref=e946] [cursor=pointer]:
+                - /url: /dns-lookup
+            - listitem [ref=e947]:
+              - link "MX Lookup" [ref=e948] [cursor=pointer]:
+                - /url: /mx-lookup
+            - listitem [ref=e949]:
+              - link "Nameserver Lookup" [ref=e950] [cursor=pointer]:
+                - /url: /name-server-lookup
+            - listitem [ref=e951]:
+              - link "Website to IP Address" [ref=e952] [cursor=pointer]:
+                - /url: /website-to-ip-address
+            - listitem [ref=e953]:
+              - link "Open Port Checker" [ref=e954] [cursor=pointer]:
+                - /url: /open-port-checker
+            - listitem [ref=e955]:
+              - link "Webcam Test" [ref=e956] [cursor=pointer]:
+                - /url: /mirror-online
+          - paragraph [ref=e957]:
+            - link "Random Tools" [ref=e958] [cursor=pointer]:
+              - /url: /random-tools
+          - list [ref=e959]:
+            - listitem [ref=e960]:
+              - link "Random IP Address" [ref=e961] [cursor=pointer]:
+                - /url: /generate-random-ip
+            - listitem [ref=e962]:
+              - link "Random Time Generator" [ref=e963] [cursor=pointer]:
+                - /url: /generate-random-time
+            - listitem [ref=e964]:
+              - link "Random UUID Generator" [ref=e965] [cursor=pointer]:
+                - /url: /generate-random-uuid
+            - listitem [ref=e966]:
+              - link "Random JSON Generator" [ref=e967] [cursor=pointer]:
+                - /url: /json-generator
+            - listitem [ref=e968]:
+              - link "Random XML Generator" [ref=e969] [cursor=pointer]:
+                - /url: /generate-random-xml
+            - listitem [ref=e970]:
+              - link "Random Data from Regex" [ref=e971] [cursor=pointer]:
+                - /url: /generate-random-data-from-regexp
+            - listitem [ref=e972]:
+              - link "Random CSV Generator" [ref=e973] [cursor=pointer]:
+                - /url: /generate-random-csv
+            - listitem [ref=e974]:
+              - link "Random Number Generator" [ref=e975] [cursor=pointer]:
+                - /url: /generate-random-numbers
+            - listitem [ref=e976]:
+              - link "Random Integer Generator" [ref=e977] [cursor=pointer]:
+                - /url: /generate-random-integers
+            - listitem [ref=e978]:
+              - link "Random Prime Generator" [ref=e979] [cursor=pointer]:
+                - /url: /prime-number-generator
+            - listitem [ref=e980]:
+              - link "Random Date Generator" [ref=e981] [cursor=pointer]:
+                - /url: /generate-random-date
+            - listitem [ref=e982]:
+              - link "Random Bitmap Generator" [ref=e983] [cursor=pointer]:
+                - /url: /generate-random-bitmap
+            - listitem [ref=e984]:
+              - link "Random Name Picker" [ref=e985] [cursor=pointer]:
+                - /url: /random-name-picker
+            - listitem [ref=e986]:
+              - link "Text Lines shuffler" [ref=e987] [cursor=pointer]:
+                - /url: /shuffle-lines
+            - listitem [ref=e988]:
+              - link "MAC Address Generator" [ref=e989] [cursor=pointer]:
+                - /url: /generate-random-mac
+            - listitem [ref=e990]:
+              - link "Random Hex Generator" [ref=e991] [cursor=pointer]:
+                - /url: /generate-random-hexadecimal-numbers
+            - listitem [ref=e992]:
+              - link "Random TSV Generator" [ref=e993] [cursor=pointer]:
+                - /url: /generate-random-tsv
+            - listitem [ref=e994]:
+              - link "Random String Generator" [ref=e995] [cursor=pointer]:
+                - /url: /generate-random-string
+            - listitem [ref=e996]:
+              - link "Random Fraction Generator" [ref=e997] [cursor=pointer]:
+                - /url: /generate-random-fractions
+            - listitem [ref=e998]:
+              - link "Random Integer Range Generator" [ref=e999] [cursor=pointer]:
+                - /url: /generate-random-integer-range
+            - listitem [ref=e1000]:
+              - link "Random Binary Generator" [ref=e1001] [cursor=pointer]:
+                - /url: /generate-random-binary-numbers
+            - listitem [ref=e1002]:
+              - link "Random Byte Generator" [ref=e1003] [cursor=pointer]:
+                - /url: /generate-random-bytes
+            - listitem [ref=e1004]:
+              - link "Random Decimal Generator" [ref=e1005] [cursor=pointer]:
+                - /url: /generate-random-decimal-numbers
+            - listitem [ref=e1006]:
+              - link "Random Alphanumeric Generator" [ref=e1007] [cursor=pointer]:
+                - /url: /random-alphanumeric-generator
+  - generic [ref=e1012]:
+    - link "Buy us a Coffee" [ref=e1013] [cursor=pointer]:
+      - /url: https://goo.gl/1oWmPe
+    - link "JSON Formatter" [ref=e1014] [cursor=pointer]:
+      - /url: https://jsonformatter.org
+    - link "FAQ" [ref=e1015] [cursor=pointer]:
+      - /url: /faq
+    - link "Privacy Policy" [ref=e1016] [cursor=pointer]:
+      - /url: /privacy-policy
+    - link "Content Policy" [ref=e1017] [cursor=pointer]:
+      - /url: /content-policy
+    - link "About" [ref=e1018] [cursor=pointer]:
+      - /url: /aboutus
+    - link "Contact" [ref=e1019] [cursor=pointer]:
+      - /url: /contactus
+    - link "History" [ref=e1020] [cursor=pointer]:
+      - /url: /history
+    - link "Where am I right now?" [ref=e1021] [cursor=pointer]:
+      - /url: /where-am-i-right-now
+    - link "Blog" [ref=e1022] [cursor=pointer]:
+      - /url: https://codeblogmoney.com
+    - link "Calculators" [ref=e1023] [cursor=pointer]:
+      - /url: /calculators/
+    - link "SEO Inspector" [ref=e1024] [cursor=pointer]:
+      - /url: https://seoinspector.pro
+  - contentinfo [ref=e1025]:
+    - generic [ref=e1026]:
+      - paragraph [ref=e1027]: Copyright © CodeBeautify 2026 | v9.7
+      - paragraph [ref=e1028]:
+        - text: Built with
+        - generic "Coffee" [ref=e1029]:
+          - img [ref=e1030]
+        - text: and
+        - generic "love" [ref=e1032]:
+          - img [ref=e1033]
+        - text: for you...
+```

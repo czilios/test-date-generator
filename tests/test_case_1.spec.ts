@@ -1,7 +1,14 @@
-// Test Case 1 check if page is loading and generating random date button is working. 
-// This test is basic and can be expanded with more assertions to verify the generated date format and content.
-// e.g. check if generated date set is equal to 10, 20 ect and if the generated dates are in the correct format default is set to MM-DD-YYYY.
+// Test Case 1
+// Validate basic generator functionality.
+// The test verifies that the generator returns the requested number of dates
+// and that generated values follow the default format (MM-DD-YYYY).
 import { test, expect } from '@playwright/test';
+// Helper functions used across tests to:
+// - navigate to the date generator page
+// - trigger date generation
+// - read generated output
+// This avoids code duplication and improves test readability.
+
 import {
   clickGenerateRandomDate,
   isIsoDateInRange,
@@ -9,7 +16,7 @@ import {
   readGeneratedDates,
   toIsoDateFromMmDdYyyy,
 } from './helpers/dateGenerator';
-
+// Define date and time boundaries used for validation in this test case.
 test.setTimeout(30000); // Set timeout to 30 seconds for all tests in this file
 const startDate = '2020-01-01';
 const endDate = '2099-12-31';
@@ -21,10 +28,10 @@ test('test count if number of generated dates is correct', async ({ page }) => {
 
   const generatedDatesArray = await readGeneratedDates(page);
 
-  // check if generated date set is equal to 20
+// Validate that the generator returns the expected number of values.
   expect(generatedDatesArray.length).toBe(20);
 
-  // Check default format MM-DD-YYYY and range
+  // Validate that generated dates follow the default format (MM-DD-YYYY) and fall within the specified range.
   for (const date of generatedDatesArray) {
     expect(date).toMatch(/^\d{2}-\d{2}-\d{4}$/);
     const isoDate = toIsoDateFromMmDdYyyy(date);
