@@ -22,20 +22,32 @@ const startDate = '2020-01-01';
 const endDate = '2099-12-31';
 
 test('test count if number of generated dates is correct', async ({ page }) => {
-  await navigateToDateGenerator(page);
-  await page.locator('#count').fill('20', { timeout: 5000 });
-  await clickGenerateRandomDate(page);
+
+  await test.step('Navigate to generator page', async () => {
+    await navigateToDateGenerator(page);
+  });
+
+  await test.step('Generate 20 random dates', async () => {
+    await page.locator('#count').fill('20');
+    await clickGenerateRandomDate(page);
+  });
 
   const generatedDatesArray = await readGeneratedDates(page);
 
 // Validate that the generator returns the expected number of values.
-  expect(generatedDatesArray.length).toBe(20);
+  await test.step('Validate number of generated dates', async () => {
+    expect(generatedDatesArray.length).toBe(20);
+  });
 
   // Validate that generated dates follow the default format (MM-DD-YYYY) and fall within the specified range.
-  for (const date of generatedDatesArray) {
-    expect(date).toMatch(/^\d{2}-\d{2}-\d{4}$/);
-    const isoDate = toIsoDateFromMmDdYyyy(date);
-    expect(isoDate).not.toBeNull();
-    expect(isIsoDateInRange(isoDate!, startDate, endDate)).toBe(true);
-  }
+  await test.step('Validate format and range', async () => {
+    for (const date of generatedDatesArray) {
+      expect(date).toMatch(/^\d{2}-\d{2}-\d{4}$/);
+      
+      const isoDate = toIsoDateFromMmDdYyyy(date);
+      expect(isoDate).not.toBeNull();
+      expect(isIsoDateInRange(isoDate!, startDate, endDate)).toBe(true);
+    }
+  });
+
 });
