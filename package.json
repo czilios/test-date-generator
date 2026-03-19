@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test:e2e": "playwright test",
-    "report": "playwright show-report playwright-report"
+    "test:stability": "powershell -ExecutionPolicy Bypass -File tests/run-tests-60min.ps1",
+    "report": "playwright show-report reports/overall-report",
+    "report:e2e": "playwright show-report playwright-report"
   },
   "keywords": [],
   "author": "Pawel",
