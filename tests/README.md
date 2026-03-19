@@ -271,8 +271,10 @@ This would allow better separation of concerns and improved maintainability.
 
 During extended execution (1h stability run), the following observations were made:
 
-- ...
-- ...
+- During one hour there  were 476 runs
+- Test 1(Basic one) and Test 4 (Check for duplicates for 500 output dates) alwasys PASS - about 5-10% are duplicated so without specified requirement I decided to pass it.
+- Test 2(endDate) and Test 5(format validation) always Fail - there is  no validation for end date so startDate > endDate allow to execute generator and get wrong output. Test 5 fail because there is no change for YYYY-Day-Month format always YYYY-Month-Day is shown.
+- Test 3 (hour validation) is flaky once it pass once it fail depends of generated output (sometimes are correct)
 
 
 
